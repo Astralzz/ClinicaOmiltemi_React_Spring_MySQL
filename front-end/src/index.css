@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*Barra principal*/
+.Barra-Principal {
+  background-color: rgb(136, 85, 163);
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  font-size: 40px;
+}
+
+.Barra-Principal li {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 80px;
+}
+
+.Barra-Principal li p {
+  color: aliceblue;
+}
+
+.container {
+  background-image: url(./images/fondo.png);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+/* .NavbarItems h1 {
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+.logo {
+  width: 20%;
+  float: left;
+}
+.navbar-ul {
+  width: 80%;
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+li {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 80px;
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
+.nav-links-mobile {
+  color: white;
+  text-decoration: none;
+}
+li:hover {
+  background-color: white;
+}
+li:hover .nav-links {
+  color: black;
+}
+li:hover .nav-links-mobile {
+  color: black;
+} */
