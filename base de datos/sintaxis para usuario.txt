@@ -1,0 +1,12 @@
+//POR EDAIN JESUS CC / ASTRALZ
+
+//Usuario para manejar la BD del hospital
+
+/*CREAR USUARIO*/
+CREATE USER 'Usuario_Hospital_1'@'localhost' IDENTIFIED BY 'Encarta659';
+
+/*REMOVER TODOS LOS PERMISOS*/
+REVOKE ALL PRIVILEGES ON * . * FROM 'Usuario_Hospital_1'@'localhost';
+
+/*DAR TODOS LOS PERMISOS DEL HOSPITAL*/
+GRANT ALL PRIVILEGES ON hospital_torres.* TO 'Usuario_Hospital_1'@'localhost';
